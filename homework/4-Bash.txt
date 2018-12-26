@@ -1,0 +1,6 @@
+Homework 4-Bash
+===============
+
+1. Create a calculator in bash(+, -, *, /) using functions and switch.
+2. Create a bash script that ZIP the ALL content of a folder and move to a folder /backup/data/$TODAY/
+3. Create a bash script that LIST of ENV_VARS in linux, store to a file called env_data.txt located at /backup/conf/$TODAY/

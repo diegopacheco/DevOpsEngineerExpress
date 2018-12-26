@@ -1,0 +1,6 @@
+Homework 5-Python
+=================
+
+1. Create a python HTTP service that list all linux env_vars on the http endpoint localhost:8080/conf/env
+2. Create a python script that recives a 2 parameter env_name, env_Var via HTTP and create a linux env_var. Endpoint: localhost:8080/env/$name/$v
+3. Create a python script that list all running software(PID and cmd) send the list to a slack channel.

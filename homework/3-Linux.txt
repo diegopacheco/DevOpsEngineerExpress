@@ -1,0 +1,6 @@
+Homework 3-Linux.pdf
+=====================
+
+1. What the Cron services does in linux? how to use it? 
+2. What is SystemD? How to use it?
+3. Why linux is so important to DevOps? Explain Why?

@@ -1,0 +1,6 @@
+Homework 2-SOA.Microservices.Cloud-Native
+=========================================
+
+1. Why SOA/Microservices is important for DevOps Engineering? 
+2. If I run my software in containers in bare-metal could I consider my architecture cloud-native? Why?
+3. Explain how the circuit-breaker pattern works. 
