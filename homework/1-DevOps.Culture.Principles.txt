@@ -1,0 +1,6 @@
+Homework 1-DevOps.Culture.Principles
+====================================
+
+1. IF I'm doing deploy automation? I'm doing devops? Explain why is true or false?
+2. How do we improve the reliability of a system?(Tip: Look for SRE)
+3. Reaserch about Postmortem and list the basic elements of a post-mortem analysis/report.

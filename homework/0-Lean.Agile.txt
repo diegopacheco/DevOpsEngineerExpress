@@ -1,0 +1,6 @@
+Homework [0-Lean.Agile]
+========================
+
+1. Make a list with all agile methods exlusing XP and Scrum and explain with 2-3 text lines how they work.
+2. Make a text with 3-5 lines explaining the issues with "Agile" - explain why.
+3. Whats the relation of Agile / Lean and Bi-Modal and DevOps?
