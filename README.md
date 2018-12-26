@@ -6,6 +6,7 @@ DevOps Engineer Express course materials
 
 This is a 20 days course. Everyday you will learn some new concept or language/tool and you will have homeworks in order to really learn and evolve as DevOps engineer. We start with Theory and Quickly move into pratical things. Here is the full agenda:
 
+```
 0 . Lean & Agile
 1 . DevOps Culture and Principles
 2 . SOA, Microservices and Cloud-Native
@@ -26,6 +27,7 @@ This is a 20 days course. Everyday you will learn some new concept or language/t
 17. NoSQL: Redis, Cass, ES, Kafka
 18. Kubernetes
 19. Vault
+```
 
 ## Homeworks
 
