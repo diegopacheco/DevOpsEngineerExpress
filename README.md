@@ -31,14 +31,14 @@ This is a 20 days course. Everyday you will learn some new concept or language/t
 
 ## Homeworks
 
-Here we have all the homework you need todo. You should do 1 per day as we move forward in the course.
+Here we have all the homework you need todo. You should do 1 per day as we move forward in the course. Don't skip the exercises nor copy from other folks otherwise you wont learn. There are plenty of documentation out there on the internet and I'm sure you can do it :-)
 
 ## How to use this repository
 
 You should fork this repository and work on the homeworks as you proceed in the course.
 
 ```
-*Materials*: You have all the slide decks
+*materials*: You have all the slide decks
 *source*: You have all the sample source code present on the materials.
 *homework*: You have all the asigment you need to do in order to really learn.
 ```
