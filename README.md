@@ -35,6 +35,10 @@ Here we have all the homework you need todo. You should do 1 per day as we move 
 
 ## How to use this repository
 
+You should fork this repository and work on the homeworks as you proceed in the course.
+
+```
 *Materials*: You have all the slide decks
 *source*: You have all the sample source code present on the materials.
 *homework*: You have all the asigment you need to do in order to really learn.
+```
