@@ -1,0 +1,36 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure(2) do |config|
+    config.vm.provider "virtualbox"
+    config.vm.box = "bento/centos-7.1"
+    config.vm.network "private_network", ip: "55.55.55.150"
+    config.vm.synced_folder ".", "/home/vagrant/shared/"
+    config.vm.provision "shell", inline: <<-SHELL    
+      sudo yum update -y     
+      sudo yum install -y wget
+      sudo yum install -y curl
+      sudo yum install -y vim
+      sudo yum install -y git    
+      sudo yum install -y build-essential
+      sudo yum install -y unzip 
+      sudo curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+      sudo python get-pip.py
+      sudo pip install packaging
+      #
+      # Install Ansible
+      #
+      cd /usr/local/src
+      sudo yum -y install git python-jinja2 python-paramiko PyYAML make MySQL-python
+      sudo git clone https://github.com/ansible/ansible.git
+      cd /usr/local/src/ansible
+      sudo git submodule update --init --recursive
+      sudo make install
+      sudo echo "[localhost]" > ~/ansible_hosts
+      sudo echo "localhost ansible_connection=local" >> ~/ansible_hosts
+      export ANSIBLE_INVENTORY=~/ansible_hosts
+    SHELL
+  
+  end
+
+  

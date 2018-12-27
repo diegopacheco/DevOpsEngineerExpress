@@ -1,0 +1,6 @@
+---
+
+- name: implicit localhost test...
+  hosts: localhost
+  tasks:
+  - debug: msg="hello world" 
