@@ -28,8 +28,9 @@ Vagrant.configure(2) do |config|
       # Install Ansible
       #
       sudo yum -y install python-jinja2 python-paramiko PyYAML make MySQL-python
-      sudo echo "[localhost]" > ~/ansible_hosts
-      sudo echo "localhost ansible_connection=local" >> ~/ansible_hosts
+      sudo sh -c 'touch ~/ansible_hosts'
+      sudo sh -c 'echo "[localhost]" > ~/ansible_hosts'
+      sudo sh -c 'echo "localhost ansible_connection=local" >> ~/ansible_hosts'
       sudo sh -c 'echo "export ANSIBLE_INVENTORY=~/ansible_hosts" >> /etc/profile'
       sudo pip install ansible
     SHELL
