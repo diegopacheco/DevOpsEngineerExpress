@@ -1,0 +1,5 @@
+vagrant plugin install vagrant-vbguest
+vagrant vbguest
+vagrant up
+vagrant ssh
+vagrant halt
