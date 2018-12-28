@@ -1,0 +1,9 @@
+
+eval $(minikube docker-env)
+
+kubectl create -f redis/
+
+kubectl get deployments
+
+kubectl get pods
+
