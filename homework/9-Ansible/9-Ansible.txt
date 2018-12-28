@@ -1,0 +1,8 @@
+Ansible Homework
+================
+
+1. Using proper ROLES/Structure in Ansbile provision your go microservice in ansible.
+   You need to have generic ROLEs sucjs as:
+    - base (where you will update the os and install commons packages - could be ubuntu or centos)
+    - go (proper install go)
+2. Create a BASH script using ansible to check if your go microservice is running(PID check)

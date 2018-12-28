@@ -1,0 +1,5 @@
+Homework GCP
+============
+
+1. Deploy your Go microservice in APP Engine
+2. Create a Manage Instace group with Load Balancer and point to your GO microservice.

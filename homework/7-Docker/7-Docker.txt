@@ -1,0 +1,8 @@
+Docker Homework
+===============
+
+1. Create a Dockerfile for your go microservice
+2. Create a BASH script that runs your microservice and stop it show the status - we should use functions. ie:
+   startMicroservice()
+   stopMicroservice()
+   statusMicroservice() = RUNNING | NOT RUNING

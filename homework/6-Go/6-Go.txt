@@ -1,0 +1,11 @@
+Homework GO
+===========
+
+1. Make a simple microservice using go. This should be a calculator Microservice where
+   you need to have one endpoit per operation .ie:
+   /calc/sum/$a/$b
+   /calc/sub/$a/$b
+   /calc/mul/$a/$b
+   /calc/div/$a/$b
+  We also need to have a operation which show all previous operations like:
+   /calc/history

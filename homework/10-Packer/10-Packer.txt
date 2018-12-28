@@ -1,0 +1,4 @@
+Packer Homework
+===============
+
+1. Create a packaer config file for backing a docker image of your go microservice.

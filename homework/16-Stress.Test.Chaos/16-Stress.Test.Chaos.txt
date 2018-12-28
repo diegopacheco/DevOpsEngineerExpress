@@ -1,0 +1,5 @@
+Stress Test / Chaos
+===================
+
+1. Create a Gatling Script to stress test your /history endpoint of your go microservice.
+2. Run Gatling stress test in your jenkins.

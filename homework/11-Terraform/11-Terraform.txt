@@ -1,0 +1,5 @@
+Terraform Homework
+===================
+
+1. Research about Terraform and Ansible. Explain the differences and when use one or another.
+2. You will have a pratical terraform code on final chapter :D

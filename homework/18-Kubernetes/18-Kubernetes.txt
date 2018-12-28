@@ -1,0 +1,5 @@
+Homework Kubernetes
+===================
+
+1. Create a deployment/pod for your go microservice in order to run in kuberntes.
+2. Create a jenkins job which deploy in to kubernetes

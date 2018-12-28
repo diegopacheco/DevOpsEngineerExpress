@@ -1,0 +1,5 @@
+Homework Vagrant
+================
+
+1. Create a Vagrantfile in order to provision(using shell) your microserivce and go.
+2. Send you start-up script to vagrant machine as well.

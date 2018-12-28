@@ -1,0 +1,8 @@
+NoSQL Homework
+===============
+
+1. Create custom ansible ROLE in order ro provision REDIS
+2. Create custom ansible ROLE in order ro provision ES
+3. Create custom ansible ROLE in order ro provision CASS
+4. Create custom ansible ROLE in order ro provision Kafka
+

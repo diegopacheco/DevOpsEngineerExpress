@@ -1,0 +1,5 @@
+Telemetry / Observability Homework
+===================================
+
+1. Change your Dockerfile for you go microservice and install collectD.
+2. Run ELK Stack and send your custom collectd metrics and logs there.

@@ -1,0 +1,5 @@
+Vault Homework
+==============
+
+1. Create Dockerfile in order to provision Vault
+2. Provison vault using Ansible AND Jenkins

@@ -1,0 +1,8 @@
+Homework AWS
+============
+
+1. Create a machine t2.micro on AWS and install your go microservice there
+2. Create an ELB and point to your EC2 machine
+3. Bake an AWS image with packer of your go microservice
+4. Create one ASG/LC for you microservice using the image you bake
+5 (BONUS) launch ASG/LC/ELB using Terraform
