@@ -2,7 +2,7 @@
 
 Welcome to the DevOps Engineer Express course.
 
-[https://github.com/diegopacheco/DevOpsEngineerExpress/blob/master/content.png]
+![DevOpsEngineerExpress](https://github.com/diegopacheco/DevOpsEngineerExpress/blob/master/content.png "DevOps Engineer Express")
 
 ## Schedulle 
 
