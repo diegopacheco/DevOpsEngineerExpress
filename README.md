@@ -45,7 +45,7 @@ Here we have all the homework you need todo. You should do 1 per day as we move 
 You should fork this repository and work on the homeworks as you proceed in the course.
 
 ```
-*decks*: You have all the slide decks
-*source*: You have all the sample source code present on the decks.
+*decks*   : You have all the slide decks
+*source*  : You have all the sample source code present on the decks.
 *homework*: You have all the asigment you need to do in order to really learn.
 ```
