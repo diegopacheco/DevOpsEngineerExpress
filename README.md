@@ -32,6 +32,10 @@ This is a 20 days course. Everyday you will learn some new concept or language/t
 20. Final Test
 ```
 
+## How long is this?
+
+The course was desined for 20h lecture plus 5h pratical coding per day. For the last project it really depends on the studant. It could be done in week or 2-3 weeks depending on the speed and avaliability. 
+
 ## Homeworks
 
 Here we have all the homework you need todo. You should do 1 per day as we move forward in the course. Don't skip the exercises nor copy from other folks otherwise you wont learn. There are plenty of documentation out there on the internet and I'm sure you can do it :-)
