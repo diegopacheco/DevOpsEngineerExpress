@@ -49,3 +49,10 @@ You should fork this repository and work on the homeworks as you proceed in the 
 *source*  : You have all the sample source code present on the decks.
 *homework*: You have all the asigment you need to do in order to really learn.
 ```
+
+## Learn More
+
+* https://trello.com/b/ZFVZz4Cd/devops-learning-the-hard-way
+* https://github.com/diegopacheco/Diego-Pacheco-Sandbox/tree/master/DevOps
+* http://diego-pacheco.blogspot.com/search?q=devops
+* https://vimeo.com/channels/pacheco
