@@ -4,6 +4,9 @@
 # Ignore RPM files
 *.rpm
 
+#Ignore ansible RETRY files
+*.retry
+
 # Prerequisites
 *.d
 
