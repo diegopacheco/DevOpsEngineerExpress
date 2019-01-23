@@ -9,6 +9,6 @@ repository: https://github.com/bennojoy/mywebapp.git
 # DB
 mysqlservice: mysqld
 mysql_port: 3306
-dbuser: foouser
-dbname: foodb
-upassword: abc
+dbuser: root
+dbname: mydb
+upassword: root

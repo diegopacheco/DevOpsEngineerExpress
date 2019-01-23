@@ -6,3 +6,7 @@ vagrant halt
 
 ## inside vagrant
 ansible-playbook cond-sample.yml --extra-vars "foo=super_duper_foo bar=123456"
+
+mysql -u root -p
+show databases;
+curl http://localhost/index.php

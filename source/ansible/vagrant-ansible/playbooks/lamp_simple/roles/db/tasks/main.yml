@@ -33,3 +33,13 @@
   lineinfile: dest=/etc/sysconfig/iptables state=present regexp="{{ mysql_port }}"
               insertafter="^:OUTPUT " line="-A INPUT -p tcp  --dport {{ mysql_port }} -j  ACCEPT"
   notify: restart iptables
+
+- name: configure root password (THIS SHOULD NOT BE HARDCODED - USE VAULT on FUTURE!!!!)
+  sudo: yes
+  shell: systemctl stop mysqld && \ 
+         systemctl set-environment MYSQLD_OPTS="--skip-grant-tables" && \ 
+         systemctl start mysqld && \
+         echo "FLUSH PRIVILEGES; ALTER USER 'root'@'localhost' IDENTIFIED BY 'root'; FLUSH PRIVILEGES;" | mysql -u root && \
+         systemctl stop mysqld && \ 
+         systemctl unset-environment MYSQLD_OPTS && \ 
+         systemctl start mysqld
