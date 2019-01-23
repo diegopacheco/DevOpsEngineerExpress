@@ -1,6 +1,14 @@
 ---
 # Variables listed here are applicable to all host groups
 
+# WEB
 httpd_port: 80
 ntpserver: localhost
 repository: https://github.com/bennojoy/mywebapp.git
+
+# DB
+mysqlservice: mysqld
+mysql_port: 3306
+dbuser: foouser
+dbname: foodb
+upassword: abc

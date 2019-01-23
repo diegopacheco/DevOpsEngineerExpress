@@ -9,12 +9,12 @@
 
 - name: configure and deploy the webservers and application code
   sudo: true
-  hosts: webservers
+  hosts: all #webservers
   roles:
     - web
 
 - name: deploy MySQL and configure the databases
   sudo: true
-  hosts: dbservers
+  hosts: all #dbservers
   roles:
     - db

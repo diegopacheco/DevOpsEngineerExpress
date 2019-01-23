@@ -1,6 +1,9 @@
 # Vagrant dirs
 .vagrant
 
+# Ignore RPM files
+*.rpm
+
 # Prerequisites
 *.d
 
