@@ -18,3 +18,7 @@
   command: getenforce
   register: sestatus
   changed_when: false
+
+- name: Install iptables service
+  yum: name=iptables-services state=present
+  tags: iptables
