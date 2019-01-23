@@ -11,9 +11,7 @@
  echo exec('hostname');
  Print  "</BR>";
 echo  "List of Databases: </BR>";
-        {% for host in groups['dbservers'] %}
-                $link = mysqli_connect('{{ hostvars[host].ansible_default_ipv4.address }}', '{{ hostvars[host].dbuser }}', '{{ hostvars[host].upassword }}') or die(mysqli_connect_error($link));
-        {% endfor %}
+        $link = mysqli_connect('localhost', '{{ dbuser }}', '{{ upassword }}') or die(mysqli_connect_error($link));
         $res = mysqli_query($link, "SHOW DATABASES;");
         while ($row = mysqli_fetch_assoc($res)) {
                 echo $row['Database'] . "\n";
