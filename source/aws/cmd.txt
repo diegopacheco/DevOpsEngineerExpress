@@ -1,0 +1,4 @@
+sudo yum install httpd
+sudo service httpd status
+sudo service httpd start
+sudo service httpd status
