@@ -1,3 +1,13 @@
+##
+## Your machine
+##
+chmod +x ~/Downloads/kp_devops_test.pem
+ssh -i ~/Downloads/kp_devops_test.pem ec2-user@54.xx.xx.xx
+
+##
+## On AWS via SSH
+##
+
 sudo yum install httpd
 sudo service httpd status
 sudo service httpd start
