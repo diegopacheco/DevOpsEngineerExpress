@@ -1,0 +1,17 @@
+# DEMO 1
+
+https://github.com/diegopacheco/DevOpsEngineerExpress.git
+
+#!/bin/bash
+
+cd source/bash/
+ls -lsa
+chmod +x misc.sh
+./misc.sh
+
+### DEMO 2
+
+https://github.com/kissaten/gradle-multi-project-example
+
+./gradlew clean build
+
